@@ -1,3 +1,5 @@
+import { Button } from "./ui/button";
+
 const HeroSection = () => {
     return (
       <div className="flex flex-col justify-center text-center text-white">
@@ -9,6 +11,14 @@ const HeroSection = () => {
           Bring blockchain to the people. Solana supports experiences <br />
           for power users, new consumers, and everyone in between.
         </p>
+        <div className="flex justify-center gap-x-4">
+        <Button variant="custom" className="bg-transparent">
+          LOG IN
+        </Button>
+        <Button variant="custom">
+          SIGN UP
+        </Button>
+      </div>
       </div>
     );
   };
